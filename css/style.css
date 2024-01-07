@@ -49,3 +49,84 @@ section{
     font-weight: 900;
     line-height: 95px;
 }
+/* Discount CSS */
+.discount-area{
+    text-align: center;
+}
+.discount-content > h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 700;
+    margin-bottom: 40px;
+ }
+.discount-content > p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.discount-content > h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.discount-area > img{
+    width: 700px;
+}
+/* welcom-banner CSS */
+.welcom-banner-area{
+    background-image: url('../images/Vectorrr.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 60px 125px;
+}
+.welcom-banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.welcom-banner-text{
+    width: 65%;
+    /* background-color: #fff; */
+}
+.welcom-banner-text > h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.welcom-banner-text > p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    margin: 23px 0;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+button{
+    font-weight: 700;
+    font-family: Inter;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #FFF;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.welcom-banner-image{
+    width: 30%;
+}
+.welcom-banner-image > img{
+    width: 100%;
+}
