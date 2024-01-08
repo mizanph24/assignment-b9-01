@@ -164,3 +164,70 @@ line-height: 56px; /* 175% */
     font-weight: 700;
     margin-top: 60px;
 }
+/* Offer CSS */
+.offer-content{
+    display: flex;
+    
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 40px;
+}
+.offer_best{
+    width: 33%;
+    padding-top: 80px ;
+}
+.offer_best > h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+   }
+.offer_best > h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    padding: 16px 0 22px 0;
+}
+.offer_best > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 160% */
+}
+.offer-img{
+    width: 33%;
+    
+}
+.offer-img > img{
+    width: 100%;
+    border: 13px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.offer-2024{
+    width: 33%;
+    padding-top: 80px ;
+    padding-left: 100px;
+}
+.offer-2024 > h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    
+}
+.offer-2024 > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; /* 160% */
+    margin: 15px 0 25px 0;
+}
+.offer-2024 > img{
+    
+}
