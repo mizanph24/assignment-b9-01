@@ -20,16 +20,18 @@ section{
 /* Header Banner*/
 .header-banner{
     margin-top: 50px;
-    background-image: url('../images/Banner Image.png');
-    background-position:center;
-    background-size: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0)), url("../images/Banner\ Image.png");
+    background-position:center center;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    opacity: .9;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
 }
+
 .header-banner-content{
     text-align: center;
     width: 60%;
@@ -39,7 +41,7 @@ section{
     color: #FFF;
     font-family: Merriweather;
     font-size: 28px;
-     font-weight: 400;
+    font-weight: 400;
 }
 .header-banner-content > h1{
     color: #FFF;
@@ -58,7 +60,7 @@ section{
     font-family: Inter;
     font-size: 78px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
  }
 .discount-content > p{
     color: #F00;
@@ -80,11 +82,12 @@ section{
 }
 /* welcom-banner CSS */
 .welcom-banner-area{
-    background-image: url('../images/Vectorrr.png');
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.911)), url("../images/Vectorrr.png");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 60px 125px;
+    border-radius: 15px;
 }
 .welcom-banner-content{
     display: flex;
@@ -123,6 +126,10 @@ section{
     padding: 0 10px;
     cursor: pointer;
     margin-top: 24px;
+}
+.btn_welcome a{
+    text-decoration: none;
+    color: #fff;
 }
 .welcom-banner-image{
     width: 30%;
@@ -163,6 +170,7 @@ line-height: 56px; /* 175% */
     font-size: 20px;
     font-weight: 700;
     margin-top: 60px;
+    cursor: pointer;
 }
 /* Offer CSS */
 .offer-content{
@@ -228,9 +236,7 @@ line-height: 56px; /* 175% */
     line-height: 25px; /* 160% */
     margin: 15px 0 25px 0;
 }
-.offer-2024 > img{
-    
-}
+
 /* Functional CSS */
 .functional-content{
     padding: 0 100px;
@@ -295,10 +301,10 @@ line-height: 56px; /* 175% */
 }
 
 /* Portfolio CSS */
-.postfolio-text{
+.portfolio-text{
     width: 70%;
 }
-.postfolio-text > h4{
+.portfolio-text > h4{
     color: #F00;
     font-family: Inter;
     font-size: 18px;
@@ -306,7 +312,7 @@ line-height: 56px; /* 175% */
     font-weight: 500;
  
 }
-.postfolio-text > h2{
+.portfolio-text > h2{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -314,7 +320,7 @@ line-height: 56px; /* 175% */
     text-transform: capitalize;
     margin: 15px 0;
 }
-.postfolio-text > p{
+.portfolio-text > p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 15px;
@@ -323,20 +329,24 @@ line-height: 56px; /* 175% */
     margin: 22px 0;
 }
 
-.postfolio-image{
+.portfolio-image{
 margin-top: 32px;
 }
 
-.postfolio-image{
+.portfolio-image{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
 }
-.postfolio-image > img{
+.portfolio-image > img{
     width: 340px;
+    opacity: 0.85;
 }
 
+.portfolio-image > img:hover{
+    opacity: 1;
+}
 /* subcribe-area CSS */
 .subcribe-area{
     padding: 100px 200px;
@@ -404,6 +414,10 @@ footer{
     margin: auto;
     color: #fff;
 }
+.line{
+  
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
 .footer-text{
 display: flex;
 justify-content: space-between;
@@ -418,8 +432,17 @@ padding: 30px 0;
 .footer-adress{
     width: 40%;
 }
-.footer-mobile img p{
-    /
+.footer-mobile p{
+    color: #fff;
+    display: flex;
+    gap: 13px;
+    justify-content: start;
+    /* height: 24px; */
+    align-items: center;
+}
+.footer-mobile ~ img{
+    width: 24px;
+    height: 24px;
 }
 .footer-social-icon{
     display: flex;
@@ -442,6 +465,8 @@ padding: 30px 0;
     font-size: 18px;
     font-weight: 500;
 }
-.unsub{
+.unsub > a{
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 }
