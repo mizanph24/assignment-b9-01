@@ -232,18 +232,18 @@ line-height: 56px; /* 175% */
     
 }
 /* Functional CSS */
-.functional-area{
+.functional-content{
     padding: 0 100px;
     text-align: center;
 }
-.functional-area > h4{
+.functional-content > h4{
     color: #070211;
     font-family: Inter;
     font-size: 18px;
     font-weight: 500;
 
 }
-.functional-area > h2{
+.functional-content > h2{
     color: #070211;
     font-family: Merriweather;
     font-size: 60px;
@@ -254,7 +254,7 @@ line-height: 56px; /* 175% */
     font-family: Merriweather;
     
 }
-.functional-area > p{
+.functional-content > p{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -263,4 +263,76 @@ line-height: 56px; /* 175% */
     font-weight: 500;
     line-height: 32px; /* 160% */
 }
+.funtional-img{
+    height: 600px;
+    position: relative;
+    margin-top: 50px;
+}
+/* .funtional-img > img{
+    position: absolute;
+    bottom: 0;
+} */
+.funtional-img > img:nth-child(1){
+    position: absolute;
+    right: 0;
+}
+.funtional-img > img:nth-child(2){
+    position: absolute;
+    right: 280px;
+    top: 90px;
+}
+.funtional-img > img:nth-child(3){
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.funtional-img > img:nth-child(4){
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 
+/* Portfolio CSS */
+.postfolio-text{
+    width: 70%;
+}
+.postfolio-text > h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    
+    font-weight: 500;
+ 
+}
+.postfolio-text > h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.postfolio-text > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px; /* 160% */
+    margin: 22px 0;
+}
+
+.postfolio-image{
+margin-top: 32px;
+}
+
+.postfolio-image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.postfolio-image > img{
+    width: 340px;
+}
